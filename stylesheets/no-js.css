@@ -1,0 +1,8 @@
+.animation { visibility:visible; }
+
+figure iframe {
+	width:100% !important;
+	height:auto !important;
+}
+
+.figure-hover:hover a > div { display:block; }

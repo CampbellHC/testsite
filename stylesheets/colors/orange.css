@@ -1,0 +1,20 @@
+a, a:visited { color:#ea7344; }
+
+.btn-custom, input[type="button"], input[type="submit"], input[type="reset"], button {
+	background-color:#ea7344;
+	background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#d85b2a), to(#ea7344));
+	background:-webkit-linear-gradient(top, #ea7344, #d85b2a);
+	background:-moz-linear-gradient(top, #ea7344, #d85b2a);
+	background:-o-linear-gradient(top, #ea7344, #d85b2a);	
+}
+.btn-custom:hover, input[type="button"]:hover, input[type="submit"]:hover, input[type="reset"]:hover, button:hover {
+	background-color:#f58b61;
+	background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#e37346), to(#f58b61));
+	background:-webkit-linear-gradient(top, #f58b61, #e37346);
+	background:-moz-linear-gradient(top, #f58b61, #e37346);
+	background:-o-linear-gradient(top, #f58b61, #e37346);
+}
+
+/* Don't change this value */
+a:hover { color:#4a4a4a; }
+.btn-custom:disabled, input[type="button"]:disabled, input[type="submit"]:disabled, input[type="reset"]:disabled, button:disabled { background:#bababa; }
